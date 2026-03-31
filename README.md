@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:FF6584&height=200&section=header&text=KHANDAVILLI%20V%20V%20S%20D%20GNANESH&fontSize=32&fontColor=ffffff&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Embedded%20Systems%20%7C%20AI%20%26%20ML%20Enthusiast&descAlignY=55&descSize=16" />
+# 👨‍💻 KHANDAVILLI V V S D GNANESH
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Embedded+Systems+Engineer;AI+%26+ML+Enthusiast;Building+Real-World+Software)](https://git.io/typing-svg)
 
 [![GitHub followers](https://img.shields.io/github/followers/Gnanesh-12?label=Followers&style=for-the-badge&color=6C63FF&labelColor=1a1a2e)](https://github.com/Gnanesh-12?tab=followers)
 [![GitHub User's stars](https://img.shields.io/github/stars/Gnanesh-12?label=Total%20Stars&style=for-the-badge&color=FF6584&labelColor=1a1a2e)](https://github.com/Gnanesh-12)
@@ -17,7 +19,7 @@ const gnanesh = {
   name:       "KHANDAVILLI V V S D GNANESH",
   username:   "Gnanesh-12",
   role:       "Full-Stack Developer & Embedded Systems Engineer",
-  focus:      ["Web Apps", "Mobile Apps",, "AI/ML",],
+  focus:      ["Web Apps", "Mobile Apps", "IoT", "AI/ML", "Blockchain"],
   languages:  ["JavaScript", "Python", "Dart", "C/C++", "Java", "HTML/CSS"],
   passion:    "Building robust, real-world software with clean engineering practices",
   currentlyWorking: ["Secure E-Voting System", "AtmaYoga — AI Pose Classifier"],
@@ -170,6 +172,8 @@ A classic Snake game implemented on an Arduino with an LED matrix display — be
 
 - 🔐 **Secure Voting Platform** — scaling the system with full end-to-end test automation
 - 🧘 **AtmaYoga** — improving model accuracy and expanding CI/CD coverage
+- 💼 **My Portfolio** — always adding new projects and refining the design
+
 ---
 
 ## 📫 Connect With Me
@@ -185,8 +189,12 @@ A classic Snake game implemented on an Arduino with an LED matrix display — be
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6584,100:6C63FF&height=120&section=footer" />
+---
+
+✦ ✦ ✦
 
 *"First, solve the problem. Then, write the code."* — John Johnson
+
+![Wave](https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf/bottom_header.svg)
 
 </div>
