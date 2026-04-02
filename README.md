@@ -2,7 +2,7 @@
 
 # 👨‍💻 KHANDAVILLI V V S D GNANESH
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Embedded+Systems+Engineer;AI+%26+ML+Enthusiast;Building+Real-World+Software)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Mobile+App_Developer;AI+%26+ML+Enthusiast;)](https://git.io/typing-svg)
 
 [![GitHub followers](https://img.shields.io/github/followers/Gnanesh-12?label=Followers&style=for-the-badge&color=6C63FF&labelColor=1a1a2e)](https://github.com/Gnanesh-12?tab=followers)
 [![GitHub User's stars](https://img.shields.io/github/stars/Gnanesh-12?label=Total%20Stars&style=for-the-badge&color=FF6584&labelColor=1a1a2e)](https://github.com/Gnanesh-12)
