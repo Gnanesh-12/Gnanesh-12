@@ -148,7 +148,7 @@ A classic Snake game implemented on an Arduino with an LED matrix display — be
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Gnanesh-12&theme=tokyonight&hide_border=true&background=0d1117&cache_seconds=86400&date_format=j%20M%5B%2C%20Y%5D)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Gnanesh-12&theme=tokyonight&hide_border=true&background=0d1117&timezone=Asia%2FKolkata&date_format=j%20M%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
 </div>
 
