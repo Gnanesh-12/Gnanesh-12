@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=GNANESH%20KHANDAVILLI&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Full-Stack%20%7C%20AI%2FML%20Engineer&descAlignY=58&descSize=18" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=6C63FF&center=true&vCenter=true&multiline=false&width=700&lines=🚀+Building+Real-World+Software+Solutions;💡+Bridging+%26+Software+Worlds;🤖+AI+%2F+ML+%7C;🏗️+Clean+Code+%7C+CI%2FCD+%7C+Test+Automation)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=6C63FF&center=true&vCenter=true&multiline=false&width=700&lines=🚀+Building+Real-World+Software+Solutions;💡+Bridging+Software+Worlds;🤖+AI+%2F+ML+%7C;🏗️+Clean+Code+%7C+CI%2FCD+%7C+Test+Automation)](https://git.io/typing-svg)
 
 <br>
 
@@ -111,7 +111,7 @@ const gnanesh = {
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Gnanesh-12&theme=tokyonight&hide_border=true&background=0d1117&ring=6C63FF&fire=FF6584&currStreakLabel=6C63FF&timezone=Asia%2FKolkata&date_format=j%20M%5B%2C%20Y%5D)](https://git.io/streak-stats)
+<img src="https://github-readme-stats.vercel.app/api?username=Gnanesh-12&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FF6584&icon_color=FF6584&text_color=ffffff&include_all_commits=true&count_private=true&custom_title=🔥%20Contribution%20Highlights" height="180em"/>
 
 </div>
 
@@ -132,11 +132,12 @@ const gnanesh = {
 
 ---
 
-## 🏆 GitHub Achievements & Trophies
+## 🏆 GitHub Achievements
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Gnanesh-12&theme=tokyonight&no-frame=true&row=1&margin-w=10&margin-h=10&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-readme-stats.vercel.app/api?username=Gnanesh-12&show=prs_merged,prs_merged_percentage,discussions_started,discussions_answered,reviews&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FFD700&icon_color=FFD700&text_color=ffffff&count_private=true&custom_title=🏆%20Achievement%20Stats" height="180em"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gnanesh-12&layout=donut&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FFD700&text_color=ffffff&langs_count=6&custom_title=🎯%20Language%20Breakdown" height="180em"/>
 
 </div>
 
