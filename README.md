@@ -105,12 +105,6 @@ const gnanesh = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Gnanesh-12&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FF6584&icon_color=FF6584&text_color=ffffff&include_all_commits=true&count_private=true&custom_title=🔥%20Contribution%20Highlights" height="180em"/>
-
-</div>
-
-<div align="center">
-
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Gnanesh-12&theme=tokyonight" width="100%"/>
 
 </div>
