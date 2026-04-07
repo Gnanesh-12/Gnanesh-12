@@ -100,7 +100,7 @@ const gnanesh = {
 
 ---
 
-## 📊 GitHub Statistics *(Auto-updates daily)*
+## 📊 GitHub Statistics
 
 <div align="center">
 
@@ -130,18 +130,6 @@ const gnanesh = {
 
 </div>
 
----
-
-## 🏆 GitHub Achievements
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Gnanesh-12&show=prs_merged,prs_merged_percentage,discussions_started,discussions_answered,reviews&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FFD700&icon_color=FFD700&text_color=ffffff&count_private=true&custom_title=🏆%20Achievement%20Stats" height="180em"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gnanesh-12&layout=donut&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FFD700&text_color=ffffff&langs_count=6&custom_title=🎯%20Language%20Breakdown" height="180em"/>
-
-</div>
-
----
 
 ## 📈 Contribution Activity
 
