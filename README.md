@@ -44,7 +44,6 @@ const gnanesh = {
 
 > 🔥 Hi, I'm Gnanesh Khandavilli. I am a passionate technologist who thrives on learning new concepts and finding creative solutions to complex problems. My primary interest lies in full-stack development. I find immense satisfaction in bridging the gap between front-end interfaces and back-end architecture, watching individual components seamlessly come together to form impactful, user-centric applications.
 
-Driven by a commitment to continuous growth, I actively explore emerging frameworks, tools, and best practices to refine my skill set. Whether collaborating within a team to exchange ideas or working independently to overcome a technical challenge, I remain focused and adaptable. My ultimate goal is to evolve continuously as a developer and build meaningful digital products that drive a positive impact.
 
 ---
 
