@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=GNANESH%20KHANDAVILLI&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Full-Stack%20%7C%20AI%2FML%20Engineer&descAlignY=58&descSize=18" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=6C63FF&center=true&vCenter=true&multiline=false&width=700&lines=🚀+Building+Real-World+Software+Solutions;💡+Bridging+Software+Worlds;🤖+AI+%2F+ML+%7C;🏗️+Clean+Code+%7C+CI%2FCD+%7C+Test+Automation)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=6C63FF&center=true&vCenter=true&multiline=false&width=700&lines=🚀+Building+Real-World+Software+Solutions;💡+Bridging+Software+Worlds;🤖+AI+%2F+ML;🏗️+Clean+Code+%7C+CI%2FCD+%7C+Test+Automation)](https://git.io/typing-svg)
 
 <br>
 
