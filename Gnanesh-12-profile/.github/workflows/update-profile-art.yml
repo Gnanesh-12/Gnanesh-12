@@ -1,0 +1,43 @@
+name: Update profile contribution graph
+
+# Re-scrapes public contribution data and re-renders the heatmap SVG daily.
+# No secrets/tokens needed: fetch_contributions.py hits GitHub's public,
+# unauthenticated contributions HTML fragment, and the commit at the end
+# uses the workflow's default GITHUB_TOKEN.
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # ~03:17 UTC daily (off the hour to dodge Actions load spikes)
+  workflow_dispatch: {}     # allows manual "Run workflow" trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install scraper/render deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch contributions
+        env:
+          GH_PROFILE_USER: ${{ github.repository_owner }}
+        run: python scripts/fetch_contributions.py
+
+      - name: Render heatmap SVG
+        run: python scripts/render_heatmap_svg.py
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/contributions.json contrib-heatmap.svg
+          git diff --cached --quiet || git commit -m "chore: refresh contribution graph"
+          git push

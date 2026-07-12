@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=GNANESH%20KHANDAVILLI&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Full-Stack%20%7C%20AI%2FML%20Engineer&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=GNANESH%20KHANDAVILLI&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Full-Stack%20Developer%20%7C%20AI%2FML%20Enthusiast&descAlignY=58&descSize=18" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=6C63FF&center=true&vCenter=true&multiline=false&width=700&lines=🚀+Building+Real-World+Software+Solutions;💡+Bridging+Software+Worlds;🤖+AI+%2F+ML;🏗️+Clean+Code+%7C+CI%2FCD+%7C+Test+Automation)](https://git.io/typing-svg)
 
@@ -9,7 +9,7 @@
 [![GitHub followers](https://img.shields.io/github/followers/Gnanesh-12?label=Followers&style=for-the-badge&color=6C63FF&labelColor=0d1117&logo=github)](https://github.com/Gnanesh-12?tab=followers)
 [![GitHub Stars](https://img.shields.io/github/stars/Gnanesh-12?label=Total%20Stars&style=for-the-badge&color=FFD700&labelColor=0d1117&logo=github)](https://github.com/Gnanesh-12)
 [![Profile Views](https://komarev.com/ghpvc/?username=Gnanesh-12&style=for-the-badge&color=brightgreen&label=Profile+Views&labelColor=0d1117)](https://github.com/Gnanesh-12)
-[![Repos](https://img.shields.io/badge/Public%20Repos-15+-blue?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Gnanesh-12?tab=repositories)
+[![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FGnanesh-12&label=Public%20Repos&query=%24.public_repos&color=blue&style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Gnanesh-12?tab=repositories)
 
 </div>
 
@@ -36,14 +36,13 @@ const gnanesh = {
     blockchain:  ["Smart Contracts", "Cryptography", "Audit Trails"]
   },
 
-  currentlyBuilding: ["🗳️ Secure E-Voting System", "🧘 AtmaYoga — AI Pose Classifier"],
+  currentlyBuilding: ["🗳️ E-Voting System Prototype", "🧘 AtmaYoga — AI Pose Classifier"],
   openToWork:        true,
   funFact:           "I write code for both microcontrollers AND production web apps 🔌📱"
 };
 ```
 
-> 🔥 Hi, I'm Gnanesh Khandavilli. I am a passionate technologist who thrives on learning new concepts and finding creative solutions to complex problems. My primary interest lies in full-stack development. I find immense satisfaction in bridging the gap between front-end interfaces and back-end architecture, watching individual components seamlessly come together to form impactful, user-centric applications.
-
+> 🔥 Hi, I'm Gnanesh Khandavilli — a full-stack developer who also builds on embedded hardware and experiments with AI/ML. I like bridging the gap between front-end interfaces and back-end architecture, and I'm just as comfortable flashing firmware onto an STM32 as I am shipping a React app. Currently exploring blockchain-based systems and computer vision through hands-on projects.
 
 ---
 
@@ -87,8 +86,8 @@ const gnanesh = {
 
 | 🏆 Project | 🔧 Tech Stack | 📄 Description |
 |:---|:---|:---|
-| 🗳️ [**Secure E-Voting System**](https://github.com/Gnanesh-12) | Blockchain · Cryptography · AI · Node.js · PostgreSQL | Production-grade e-voting platform with end-to-end encryption, blockchain audit trails, AI-based fraud detection, and full E2E test automation |
-| 🧘 [**AtmaYoga — AI Pose Classifier**](https://github.com/Gnanesh-12) | Python · Computer Vision · CI/CD | Real-time yoga pose estimation system with automated testing, CI/CD pipeline, and comprehensive coverage reporting |
+| 🗳️ [**E-Voting System Prototype**](https://github.com/Gnanesh-12) | Blockchain · Cryptography · Node.js · PostgreSQL | Academic project exploring end-to-end encryption and blockchain-based audit trails for a secure voting workflow, with automated E2E test coverage |
+| 🧘 [**AtmaYoga — AI Pose Classifier**](https://github.com/Gnanesh-12) | Python · Computer Vision · CI/CD | Real-time yoga pose estimation system with automated testing, CI/CD pipeline, and coverage reporting |
 | 💛 [**Digital Gold & Silver Platform**](https://github.com/Gnanesh-12/DIGITAL---GOLD-SILVER) | JavaScript · React · Node.js | Full-stack digital marketplace for gold & silver trading with live price tracking and multi-role dashboard (Customer / Admin / Dealer) |
 | 🍽️ [**Flutter Canteen Management App**](https://github.com/Gnanesh-12/flutter_Canteen_Management_App) | Flutter · Dart · Mobile | Cross-platform canteen management system handling menus, orders, and payments with a production-quality mobile UI ⭐ 1 |
 | 💓 [**Heart Rate & SpO₂ Monitor (STM32)**](https://github.com/Gnanesh-12/Heart-Rate-and-SpO-Monitoring-System-using-STM32-and-MAX30102) | C · STM32 · MAX30102 · Embedded | Real-time biomedical monitoring system using STM32 microcontroller + MAX30102 sensor for heart rate & blood oxygen tracking |
@@ -102,7 +101,6 @@ const gnanesh = {
 ---
 
 ## 📊 GitHub Statistics
-
 
 <div align="center">
 
@@ -119,7 +117,6 @@ const gnanesh = {
 
 </div>
 
-
 ## 📈 Contribution Activity
 
 <div align="center">
@@ -132,16 +129,10 @@ const gnanesh = {
 
 ## 🎯 What I'm Currently Building
 
-```
-🗳️  Secure E-Voting System ........ ██████████████████░░░░   85% complete
-🧘  AtmaYoga Pose Classifier ....... ████████████████░░░░░░   70% complete
-💼  Portfolio Website .............. ██████████████████████  100% live 🟢
-```
-
-- 🔐 **Secure Voting Platform** — scaling the system with full end-to-end test automation and CI/CD
+- 🔐 **E-Voting System Prototype** — building out end-to-end test automation and CI/CD
 - 🧘 **AtmaYoga** — improving model accuracy and expanding GitHub Actions coverage
 - 📊 **Big Data** — exploring distributed data pipelines with Hadoop & ZooKeeper
-- 💼 **My Portfolio** — continuously adding projects → [Live Portfolio 🔗](https://my-portfolio-ashen-one-ezi2xpapif.vercel.app/)
+- 💼 **My Portfolio** — live and continuously updated → [Live Portfolio 🔗](https://my-portfolio-ashen-one-ezi2xpapif.vercel.app/)
 
 ---
 

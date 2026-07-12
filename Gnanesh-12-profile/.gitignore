@@ -1,0 +1,5 @@
+# Raw/local-only intermediates -- not needed once avi-ascii.svg is generated.
+source-photo.jpg
+source-prepped.png
+__pycache__/
+*.pyc
