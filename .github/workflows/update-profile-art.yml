@@ -1,8 +1,9 @@
 name: Update profile contribution graph
-# Fetches contribution data (including private contributions) via GitHub's
-# GraphQL API using a PAT, then re-renders the heatmap SVG daily.
-# Requires a repository secret named GH_PAT with `read:user` scope.
-# Falls back to the default GITHUB_TOKEN if GH_PAT is not set (public only).
+
+# Re-scrapes public contribution data and re-renders the heatmap SVG daily.
+# No secrets/tokens needed: fetch_contributions.py hits GitHub's public,
+# unauthenticated contributions HTML fragment, and the commit at the end
+# uses the workflow's default GITHUB_TOKEN.
 
 on:
   schedule:
@@ -31,7 +32,6 @@ jobs:
       - name: Fetch contributions
         env:
           GH_PROFILE_USER: ${{ github.repository_owner }}
-          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
         run: python scripts/fetch_contributions.py
 
       - name: Render heatmap SVG
