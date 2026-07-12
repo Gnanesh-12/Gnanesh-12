@@ -207,47 +207,6 @@ const gnanesh = {
 | [Movie-Ticket-Booking](https://github.com/Gnanesh-12/Movie-Ticket-Booking) | ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white) | — | Movie ticket booking UI with seat selection |
 
 </div>
-
----
-
-## 🎨 How the Profile Art Works
-
-This profile README uses **auto-generated SVG assets** built with Python scripts and refreshed daily by a GitHub Actions workflow:
-
-| Asset | Script | What It Does |
-|:---|:---|:---|
-| **ASCII Portrait** (`avi-ascii.svg`) | `scripts/make_ascii_svg.py` | Converts a portrait photo into an animated, terminal-themed ASCII-art SVG with a typewriter reveal effect |
-| **Info Card** (`info-card.svg`) | `scripts/make_info_card.py` | Generates a neofetch-style info panel with experience, tech stack, and highlights — animated fade-in |
-| **Contribution Heatmap** (`contrib-heatmap.svg`) | `scripts/render_heatmap_svg.py` | Renders a GitHub-style contribution calendar with animated cell reveals, streak stats, and a Less→More legend |
-| **Photo Prep** | `scripts/prep_photo.py` | Background removal (rembg) + CLAHE local contrast enhancement to prepare the source photo |
-| **Data Fetcher** | `scripts/fetch_contributions.py` | Scrapes public GitHub contribution data (no token needed) and computes streaks, stats, and monthly totals |
-
-🔄 **Daily refresh**: The [GitHub Actions workflow](Gnanesh-12-profile/.github/workflows/update-profile-art.yml) runs at ~03:17 UTC daily, fetching fresh contribution data and re-rendering the heatmap SVG automatically.
-
-<details>
-<summary>🛠️ Local setup (one-time, for regenerating the portrait & info card)</summary>
-
-```bash
-# Install local dependencies (portrait generation needs rembg, opencv, etc.)
-pip install -r requirements-local.txt
-
-# Prepare photo (background removal + contrast enhancement)
-python scripts/prep_photo.py source-photo.jpg
-
-# Generate ASCII portrait SVG
-python scripts/make_ascii_svg.py
-
-# Generate info card SVG
-python scripts/make_info_card.py
-
-# Fetch contributions and render heatmap (also done daily by CI)
-pip install -r scripts/requirements.txt
-python scripts/fetch_contributions.py
-python scripts/render_heatmap_svg.py
-```
-
-</details>
-
 ---
 
 ## 📫 Let's Connect!
