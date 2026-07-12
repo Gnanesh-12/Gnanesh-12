@@ -26,8 +26,8 @@
 
 <table>
 <tr>
-<td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII portrait" /></td>
-<td valign="top"><img src="./info-card.svg" width="490" alt="Experience, stack, highlights" /></td>
+<td valign="top"><img src="./Gnanesh-12-profile/avi-ascii.svg" width="370" alt="ASCII portrait" /></td>
+<td valign="top"><img src="./Gnanesh-12-profile/info-card.svg" width="490" alt="Experience, stack, highlights" /></td>
 </tr>
 </table>
 
@@ -165,7 +165,7 @@ const gnanesh = {
 <div align="center">
 
 <!-- animated contribution heatmap, refreshed daily by the GitHub Actions workflow -->
-<img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution heatmap" />
+<img src="./Gnanesh-12-profile/contrib-heatmap.svg" width="860" alt="GitHub contribution heatmap" />
 
 <br><br>
 
@@ -222,7 +222,7 @@ This profile README uses **auto-generated SVG assets** built with Python scripts
 | **Photo Prep** | `scripts/prep_photo.py` | Background removal (rembg) + CLAHE local contrast enhancement to prepare the source photo |
 | **Data Fetcher** | `scripts/fetch_contributions.py` | Scrapes public GitHub contribution data (no token needed) and computes streaks, stats, and monthly totals |
 
-🔄 **Daily refresh**: The [GitHub Actions workflow](.github/workflows/update-profile-art.yml) runs at ~03:17 UTC daily, fetching fresh contribution data and re-rendering the heatmap SVG automatically.
+🔄 **Daily refresh**: The [GitHub Actions workflow](Gnanesh-12-profile/.github/workflows/update-profile-art.yml) runs at ~03:17 UTC daily, fetching fresh contribution data and re-rendering the heatmap SVG automatically.
 
 <details>
 <summary>🛠️ Local setup (one-time, for regenerating the portrait & info card)</summary>
