@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Scrape real daily contribution counts from GitHub's public, unauthenticated
-contributions endpoint (the same fragment the profile page itself uses) and
-write data/contributions.json with the raw days plus derived stats
-(current streak, longest streak, best day, monthly totals).
+Fetch real daily contribution counts (including PRIVATE contributions) via
+GitHub's GraphQL API and write data/contributions.json with the raw days
+plus derived stats (current streak, longest streak, best day, monthly totals).
 
-No token, no auth, no GraphQL -- just the public HTML GitHub already serves.
+Requires a GitHub Personal Access Token (PAT) with `read:user` scope, passed
+via the GH_TOKEN environment variable. Falls back to the public HTML scraper
+if no token is provided.
+
 Run daily by .github/workflows/update-profile-art.yml.
 """
 import datetime
@@ -15,15 +17,67 @@ import re
 import sys
 
 import requests
-from bs4 import BeautifulSoup
 
 USERNAME = os.environ.get("GH_PROFILE_USER", "YOUR_GITHUB_USERNAME")
-URL = f"https://github.com/users/{USERNAME}/contributions"
+GH_TOKEN = os.environ.get("GH_TOKEN", "")
 OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "contributions.json")
 
+GRAPHQL_URL = "https://api.github.com/graphql"
+GRAPHQL_QUERY = """
+query($username: String!) {
+  user(login: $username) {
+    contributionsCollection {
+      contributionCalendar {
+        totalContributions
+        weeks {
+          contributionDays {
+            contributionCount
+            date
+          }
+        }
+      }
+    }
+  }
+}
+"""
 
-def fetch_days():
-    resp = requests.get(URL, headers={"User-Agent": "profile-readme-bot/1.0"}, timeout=30)
+
+def fetch_days_graphql():
+    """Fetch contribution data via GitHub GraphQL API (includes private contributions)."""
+    headers = {
+        "Authorization": f"Bearer {GH_TOKEN}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "query": GRAPHQL_QUERY,
+        "variables": {"username": USERNAME},
+    }
+    resp = requests.post(GRAPHQL_URL, json=payload, headers=headers, timeout=30)
+    resp.raise_for_status()
+    result = resp.json()
+
+    if "errors" in result:
+        print(f"GraphQL errors: {result['errors']}", file=sys.stderr)
+        sys.exit(1)
+
+    calendar = result["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+    days = []
+    for week in calendar["weeks"]:
+        for day in week["contributionDays"]:
+            days.append({"date": day["date"], "count": day["contributionCount"]})
+
+    days.sort(key=lambda d: d["date"])
+    print(f"[GraphQL] fetched {len(days)} days, "
+          f"total {calendar['totalContributions']} contributions (includes private)")
+    return days
+
+
+def fetch_days_public():
+    """Fallback: scrape the public HTML endpoint (public contributions only)."""
+    from bs4 import BeautifulSoup
+
+    url = f"https://github.com/users/{USERNAME}/contributions"
+    resp = requests.get(url, headers={"User-Agent": "profile-readme-bot/1.0"}, timeout=30)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
@@ -48,6 +102,7 @@ def fetch_days():
         days.append({"date": date, "count": count})
 
     days.sort(key=lambda d: d["date"])
+    print(f"[HTML scraper] fetched {len(days)} days (public contributions only)")
     return days
 
 
@@ -113,7 +168,13 @@ def build_data(days):
 
 
 if __name__ == "__main__":
-    days = fetch_days()
+    if GH_TOKEN:
+        print("Using GitHub GraphQL API (private + public contributions)")
+        days = fetch_days_graphql()
+    else:
+        print("No GH_TOKEN set — falling back to public HTML scraper")
+        days = fetch_days_public()
+
     data = build_data(days)
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, "w") as f:
