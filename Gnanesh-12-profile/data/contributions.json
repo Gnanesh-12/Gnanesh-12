@@ -1,13 +1,13 @@
 {
   "username": "Gnanesh-12",
-  "generated_at": "2026-08-01T06:10:41Z",
+  "generated_at": "2026-08-02T06:15:15Z",
   "range": {
-    "start": "2025-07-27",
-    "end": "2026-08-01"
+    "start": "2025-08-03",
+    "end": "2026-08-02"
   },
-  "total_contributions": 159,
-  "active_days": 37,
-  "avg_per_active_day": 4.3,
+  "total_contributions": 157,
+  "active_days": 36,
+  "avg_per_active_day": 4.4,
   "current_streak": {
     "length": 0,
     "start": null,
@@ -23,10 +23,6 @@
     "count": 18
   },
   "monthly": [
-    {
-      "month": "2025-07",
-      "total": 2
-    },
     {
       "month": "2025-08",
       "total": 0
@@ -81,34 +77,6 @@
     }
   ],
   "days": [
-    {
-      "date": "2025-07-27",
-      "count": 0
-    },
-    {
-      "date": "2025-07-28",
-      "count": 0
-    },
-    {
-      "date": "2025-07-29",
-      "count": 2
-    },
-    {
-      "date": "2025-07-30",
-      "count": 0
-    },
-    {
-      "date": "2025-07-31",
-      "count": 0
-    },
-    {
-      "date": "2025-08-01",
-      "count": 0
-    },
-    {
-      "date": "2025-08-02",
-      "count": 0
-    },
     {
       "date": "2025-08-03",
       "count": 0
@@ -1563,6 +1531,10 @@
     },
     {
       "date": "2026-08-01",
+      "count": 0
+    },
+    {
+      "date": "2026-08-02",
       "count": 0
     }
   ]
