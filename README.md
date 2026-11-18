@@ -87,9 +87,3 @@ I am a final-year B.Tech Computer Science and Engineering student at **Amrita Vi
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/Khandav1Gnanesh)
 
 </div>
-
----
-
-<p align="center">
-  <sub>Designed with focus on clarity, performance, and engineering precision.</sub>
-</p>
