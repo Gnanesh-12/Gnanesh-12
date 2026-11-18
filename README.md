@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=header&text=GNANESH%20KHANDAVILLI&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=AI%2FML%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20Distributed%20Systems%20Enthusiast&descAlignY=62&descSize=16" width="100%" alt="Gnanesh Khandavilli - Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=header&text=GNANESH%20KHANDAVILLI&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=AI%2FML%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20&descAlignY=62&descSize=16" width="100%" alt="Gnanesh Khandavilli - Header Banner" />
 
 </div>
 
